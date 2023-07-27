@@ -1,0 +1,262 @@
+src/main/java/com/eshoppingcart/productservice/ProductServiceApplication.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.boot.autoconfigure.EnableAutoConfiguration'
+src/main/java/com/eshoppingcart/productservice/ProductServiceApplication.java:7:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.context.annotation.Configuration'
+src/main/java/com/eshoppingcart/productservice/ProductServiceApplication.java:12:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/eshoppingcart/productservice/ProductServiceApplication.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingcart/productservice/ProductServiceApplication.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/ProductServiceApplication.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/ProductServiceApplication.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:35:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:37:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:39:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'logger'
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:41:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:41:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productService' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:46:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'service'
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:46:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:46:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'product' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:56:	UseVarargs:	UseVarargs: Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:61:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'images' could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:63:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:65:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:66:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:71:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:71:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'multipartFiles' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:71:	UseVarargs:	UseVarargs: Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:72:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'imageModels' could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:74:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:75:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:75:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'imageModel' could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:88:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pageNumber' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:89:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'searchKey' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:90:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:91:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:104:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:105:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'product'.
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:118:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productType' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:120:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:132:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productName' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:133:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product' could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:133:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'product'
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:134:	UnnecessaryCast:	UnnecessaryCast: Unnecessary cast (Optional<Product>)
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:147:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:149:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:162:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'product' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:162:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:167:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedProduct' could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:180:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:195:	LongVariable:	LongVariable: Avoid excessively long variable names like isSingleProductCheckout
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:195:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'isSingleProductCheckout' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/controller/ProductController.java:196:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/DBSequence.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingcart/productservice/entity/DBSequence.java:7:	DataClass:	DataClass: The class 'DBSequence' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+src/main/java/com/eshoppingcart/productservice/entity/DBSequence.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/DBSequence.java:10:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/eshoppingcart/productservice/entity/DBSequence.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/DBSequence.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/entity/DBSequence.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/DBSequence.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'seqNo' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/DBSequence.java:14:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/eshoppingcart/productservice/entity/DBSequence.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/entity/DBSequence.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/DBSequence.java:30:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/eshoppingcart/productservice/entity/DBSequence.java:38:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'seqNo' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:6:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.data.mongodb.core.mapping.Field'
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:9:	DataClass:	DataClass: The class 'ImageModel' is suspected to be a Data Class (WOC=11.111%, NOPA=1, NOAM=8, WMC=11)
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:15:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'picByte' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'type' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:31:	ArrayIsStoredDirectly:	ArrayIsStoredDirectly: The user-supplied array 'picByte' is stored directly.
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:39:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:39:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:47:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:55:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'type' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:60:	MethodReturnsInternalArray:	MethodReturnsInternalArray: Returning 'picByte' may expose an internal array.
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:63:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'picByte' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:64:	ArrayIsStoredDirectly:	ArrayIsStoredDirectly: The user-supplied array 'picByte' is stored directly.
+src/main/java/com/eshoppingcart/productservice/entity/ImageModel.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.List'
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.Map'
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:8:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.GeneratedValue'
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.GenerationType'
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:19:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:19:	DataClass:	DataClass: The class 'Product' is suspected to be a Data Class (WOC=17.647%, NOPA=1, NOAM=14, WMC=22)
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:40:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:43:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:43:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:47:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:47:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:47:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productName' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:47:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productType' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:49:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'price' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:50:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'description' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:74:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productType' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:82:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productName' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:90:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:99:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'price' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:107:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'description' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:115:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productImages' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:134:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:136:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:136:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:138:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:138:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:140:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:140:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingcart/productservice/entity/Product.java:141:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'other' could be declared final
+src/main/java/com/eshoppingcart/productservice/exception/GlobalExceptionHandler.java:12:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/eshoppingcart/productservice/exception/GlobalExceptionHandler.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingcart/productservice/exception/GlobalExceptionHandler.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/exception/GlobalExceptionHandler.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/exception/GlobalExceptionHandler.java:15:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/eshoppingcart/productservice/exception/GlobalExceptionHandler.java:16:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'map' could be declared final
+src/main/java/com/eshoppingcart/productservice/exception/GlobalExceptionHandler.java:16:	UseConcurrentHashMap:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/eshoppingcart/productservice/exception/GlobalExceptionHandler.java:16:	UseDiamondOperator:	UseDiamondOperator: Raw type use may be avoided by using a diamond: `new HashMap<>()`
+src/main/java/com/eshoppingcart/productservice/exception/ProductNotFoundException.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingcart/productservice/exception/ProductNotFoundException.java:6:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/eshoppingcart/productservice/exception/ProductNotFoundException.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/exception/ProductNotFoundException.java:8:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/exception/ProductNotFoundException.java:8:	ShortVariable:	ShortVariable: Avoid variables with short names like s
+src/main/java/com/eshoppingcart/productservice/exception/ProductNotFoundException.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/repository/ProductRepository.java:13:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingcart/productservice/repository/ProductRepository.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/repository/ProductRepository.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/repository/ProductRepository.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/repository/ProductRepository.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/repository/ProductRepository.java:18:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findByProductNameContainingIgnoreCaseOrDescriptionContainingIgnoreCase': the method is declared in an interface type
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:15:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'addProduct': the method is declared in an interface type
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:18:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getAllProducts': the method is declared in an interface type
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:21:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getProductById': the method is declared in an interface type
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:24:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getProductByName': the method is declared in an interface type
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:27:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'updateProduct': the method is declared in an interface type
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:30:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'deleteProductById': the method is declared in an interface type
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:33:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getProductsByCategory': the method is declared in an interface type
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:36:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:36:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getProductsByType': the method is declared in an interface type
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:39:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:39:	LongVariable:	LongVariable: Avoid excessively long variable names like isSingleProductCheckout
+src/main/java/com/eshoppingcart/productservice/service/ProductService.java:39:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getProductDetails': the method is declared in an interface type
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:24:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:24:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:30:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'restTemplate'
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'product' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:38:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:39:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:40:	PreserveStackTrace:	PreserveStackTrace: Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pageNumber' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'searchKey' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'pageable' could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:48:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:49:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'pageProduct' could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'allProducts' could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:50:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'allProducts'
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:51:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:57:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:58:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:59:	PreserveStackTrace:	PreserveStackTrace: Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:64:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:65:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product' could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:65:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'product'
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:71:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productName' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:74:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:75:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:76:	PreserveStackTrace:	PreserveStackTrace: Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:81:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'product' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:84:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:85:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:86:	PreserveStackTrace:	PreserveStackTrace: Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:91:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:94:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:95:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:96:	PreserveStackTrace:	PreserveStackTrace: Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:101:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:104:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:105:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:106:	PreserveStackTrace:	PreserveStackTrace: Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:111:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productType' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:114:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:115:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:116:	PreserveStackTrace:	PreserveStackTrace: Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:120:	LongVariable:	LongVariable: Avoid excessively long variable names like isSingleProductCheckout
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:120:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'isSingleProductCheckout' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:120:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:120:	MissingOverride:	MissingOverride: The method 'getProductDetails(boolean, Integer)' is missing an @Override annotation.
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:123:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:124:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product' could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:126:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:131:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'cartServiceUrl' could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:132:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:133:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ParameterizedTypeReference<>()`
+src/main/java/com/eshoppingcart/productservice/service/ProductServiceImpl.java:135:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productList' could be declared final
+src/main/java/com/eshoppingcart/productservice/service/SequenceGeneratorService.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingcart/productservice/service/SequenceGeneratorService.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingcart/productservice/service/SequenceGeneratorService.java:17:	ImmutableField:	ImmutableField: Field 'mongoOperations' may be declared final
+src/main/java/com/eshoppingcart/productservice/service/SequenceGeneratorService.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/service/SequenceGeneratorService.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mongoOperations' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/service/SequenceGeneratorService.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingcart/productservice/service/SequenceGeneratorService.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'seqName' is not assigned and could be declared final
+src/main/java/com/eshoppingcart/productservice/service/SequenceGeneratorService.java:25:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'counter' could be declared final
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:1:	TooManyStaticImports:	TooManyStaticImports: Too many static imports may lead to messy code
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:33:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:33:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:40:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:40:	SingularField:	SingularField: Perhaps 'product' could be replaced by a local variable.
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:43:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:46:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Electronics" appears 6 times in this file; the first occurrence is on line 50
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:46:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "It is a electronic device" appears 6 times in this file; the first occurrence is on line 50
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:46:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Laptop" appears 7 times in this file; the first occurrence is on line 50
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:46:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Notebook" appears 6 times in this file; the first occurrence is on line 50
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:46:	UseUnderscoresInNumericLiterals:	UseUnderscoresInNumericLiterals: Number 90000 should separate every third digit with an underscore
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:52:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:52:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:56:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:56:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'addProduct_ShouldSaveProduct' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:75:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:75:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The getter 'getAllProducts_ShouldReturnAllProducts' should not return void linguistically
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:75:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'getAllProducts_ShouldReturnAllProducts' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:101:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:101:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The getter 'getProductById_ExistingProductId_ShouldReturnProduct' should not return void linguistically
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:101:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'getProductById_ExistingProductId_ShouldReturnProduct' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:121:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:121:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The getter 'getProductById_NonExistingProductId_ShouldThrowProductNotFoundException' should not return void linguistically
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:121:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'getProductById_NonExistingProductId_ShouldThrowProductNotFoundException' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:134:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:134:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The getter 'getProductByName_ExistingProductName_ShouldReturnOptionalProduct' should not return void linguistically
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:134:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'getProductByName_ExistingProductName_ShouldReturnOptionalProduct' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:153:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:153:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'updateProduct_ValidProduct_ShouldReturnUpdatedProduct' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:172:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'deleteProductById_ExistingProductId_ShouldDeleteProduct' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:186:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/eshoppingcart/productservice/ProductServiceApplicationTests.java:186:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'deleteProductById_NonExistingProductId_ShouldThrowProductNotFoundException' doesn't match '[a-z][a-zA-Z0-9]*'
