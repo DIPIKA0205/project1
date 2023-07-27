@@ -1,0 +1,114 @@
+2023-07-18 13:42:22,560 INFO  SpringApplication:659 - [] No active profile set, falling back to default profiles: default
+2023-07-18 13:42:24,353 INFO  RepositoryConfigurationDelegate:262 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-18 13:42:24,358 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-18 13:42:24,416 INFO  RepositoryConfigurationExtensionSupport:349 - [] Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.eshoppingcart.cartservice.cartservicenew.repository.CartRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-07-18 13:42:24,419 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 48 ms. Found 0 JPA repository interfaces.
+2023-07-18 13:42:24,436 INFO  RepositoryConfigurationDelegate:262 - [] Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-07-18 13:42:24,438 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-07-18 13:42:24,638 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 199 ms. Found 1 MongoDB repository interfaces.
+2023-07-18 13:42:25,104 INFO  GenericScope:283 - [] BeanFactory id=0e3c81d8-6cd0-3868-9b13-ff278eebd81e
+2023-07-18 13:42:26,269 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8000 (http)
+2023-07-18 13:42:26,297 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2023-07-18 13:42:26,301 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2023-07-18 13:42:26,550 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2023-07-18 13:42:26,551 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 3952 ms
+2023-07-18 13:42:26,841 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2023-07-18 13:42:27,124 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2023-07-18 13:42:27,135 INFO  H2ConsoleAutoConfiguration:68 - [] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:90eeff64-e4ec-4f88-bcf1-205bc802e388'
+2023-07-18 13:42:27,424 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-18 13:42:27,531 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-07-18 13:42:27,763 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-18 13:42:27,956 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-18 13:42:28,303 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-18 13:42:28,320 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-18 13:42:28,532 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-07-18 13:42:28,657 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:2, serverValue:2074}] to localhost:27017
+2023-07-18 13:42:28,658 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=32855900}
+2023-07-18 13:42:28,660 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:1, serverValue:2075}] to localhost:27017
+2023-07-18 13:42:28,723 WARN  CustomConversions:261 - [] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2023-07-18 13:42:28,831 WARN  OptionalLiveReloadServer:61 - [] Unable to start LiveReload server
+2023-07-18 13:42:28,965 WARN  CustomConversions:261 - [] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2023-07-18 13:42:29,370 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-18 13:42:32,526 INFO  InetUtils:170 - [] Cannot determine local hostname
+2023-07-18 13:42:34,102 INFO  InetUtils:170 - [] Cannot determine local hostname
+2023-07-18 13:42:34,132 INFO  DiscoveryClientOptionalArgsConfiguration:68 - [] Eureka HTTP Client uses RestTemplate.
+2023-07-18 13:42:34,255 WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82 - [] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-07-18 13:42:34,297 INFO  EndpointLinksResolver:58 - [] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-18 13:42:34,358 INFO  InstanceInfoFactory:67 - [] Setting initial instance status as: STARTING
+2023-07-18 13:42:34,554 INFO  DiscoveryClient:372 - [] Initializing Eureka in region us-east-1
+2023-07-18 13:42:34,563 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 13:42:34,610 INFO  DiscoveryClient:1007 - [] Disable delta property : false
+2023-07-18 13:42:34,611 INFO  DiscoveryClient:1008 - [] Single vip registry refresh property : null
+2023-07-18 13:42:34,612 INFO  DiscoveryClient:1009 - [] Force full registry fetch : false
+2023-07-18 13:42:34,612 INFO  DiscoveryClient:1010 - [] Application is null : false
+2023-07-18 13:42:34,612 INFO  DiscoveryClient:1011 - [] Registered Applications size is zero : true
+2023-07-18 13:42:34,613 INFO  DiscoveryClient:1013 - [] Application version is -1: true
+2023-07-18 13:42:34,614 INFO  DiscoveryClient:1097 - [] Getting all instance registry info from the eureka server
+2023-07-18 13:42:35,233 INFO  DiscoveryClient:1106 - [] The response status is 200
+2023-07-18 13:42:35,240 INFO  DiscoveryClient:1321 - [] Starting heartbeat executor: renew interval is: 30
+2023-07-18 13:42:35,250 INFO  InstanceInfoReplicator:60 - [] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-07-18 13:42:35,262 INFO  DiscoveryClient:492 - [] Discovery Client initialized at timestamp 1689667955258 with initial instances count: 3
+2023-07-18 13:42:35,267 INFO  EurekaServiceRegistry:41 - [] Registering application CART-SERVICE with eureka with status UP
+2023-07-18 13:42:35,269 INFO  DiscoveryClient$3:1352 - [] Saw local status change event StatusChangeEvent [timestamp=1689667955269, current=UP, previous=STARTING]
+2023-07-18 13:42:35,274 INFO  DiscoveryClient:873 - [] DiscoveryClient_CART-SERVICE/localhost:cart-service:8000: registering service...
+2023-07-18 13:42:35,329 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8000 (http) with context path ''
+2023-07-18 13:42:35,335 INFO  EurekaAutoServiceRegistration:144 - [] Updating port to 8000
+2023-07-18 13:42:35,352 INFO  DiscoveryClient:882 - [] DiscoveryClient_CART-SERVICE/localhost:cart-service:8000 - registration status: 204
+2023-07-18 13:42:36,593 INFO  InetUtils:170 - [] Cannot determine local hostname
+2023-07-18 13:42:36,771 INFO  StartupInfoLogger:61 - [] Started CartServiceNewApplication in 18.212 seconds (JVM running for 19.31)
+2023-07-18 13:47:34,627 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 13:52:34,637 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 13:57:34,650 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 14:04:32,875 WARN  HikariPool$HouseKeeper:788 - [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m5s342ms667µs800ns).
+2023-07-18 14:06:09,982 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 14:11:09,994 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 14:16:10,008 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 14:21:10,021 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 14:26:10,024 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 14:31:10,040 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 14:36:10,054 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 17:26:08,500 WARN  HikariPool$HouseKeeper:788 - [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h48m5s84ms965µs500ns).
+2023-07-18 17:28:45,127 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 17:33:45,142 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 17:38:45,145 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 17:43:45,153 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 17:48:45,168 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 17:53:45,181 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 17:58:45,187 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 18:03:45,196 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 18:08:45,203 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 18:13:45,214 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 18:18:45,219 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 18:33:22,409 WARN  HikariPool$HouseKeeper:788 - [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m12s989ms527µs100ns).
+2023-07-18 18:34:28,191 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 18:35:11,090 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-18 18:35:11,093 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2023-07-18 18:35:11,353 INFO  FrameworkServlet:547 - [] Completed initialization in 258 ms
+2023-07-18 18:35:12,691 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:3, serverValue:2077}] to localhost:27017
+2023-07-18 18:39:28,198 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 18:44:28,213 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 18:49:28,229 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 18:54:28,238 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 18:59:28,242 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 19:04:28,246 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 19:09:28,261 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 19:14:28,268 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 19:19:28,276 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 20:56:49,204 WARN  HikariPool$HouseKeeper:788 - [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h36m55s83ms347µs200ns).
+2023-07-18 21:00:53,339 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 21:05:53,355 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 21:10:53,360 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 21:15:53,363 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 21:20:53,374 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 21:25:53,377 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 21:30:53,383 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 21:35:53,399 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 21:40:53,409 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 21:45:53,426 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 21:50:53,443 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 21:55:53,448 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 22:00:53,452 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 22:05:53,468 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 22:10:53,487 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 22:15:53,500 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-07-18 22:20:53,509 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
